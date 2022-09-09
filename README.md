@@ -42,7 +42,7 @@ If you just created a new project, you need to *set up billing* for it. First fi
 
 *Enable required services.* We need compute to run the VM, cloudbuild to create the Docker file and containerregistry to store
 
-    gcloud services enable compute cloudbuild.googleapis.com containerregistry.googleapis.com
+    gcloud services enable compute cloudbuild.googleapis.com containerregistry.googleapis.com storage.googleapis.com
 
 ### Build the Docker container
 
